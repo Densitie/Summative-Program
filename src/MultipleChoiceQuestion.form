@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Quiz" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="Quiz" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Quiz">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="413" max="-2" attributes="0"/>
+                  <Component id="SubmitButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="NiI3_lbl" min="-2" pref="322" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="NiI3_txt" min="-2" pref="217" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="Correction2_txt" min="-2" pref="43" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Hypochlorite_txt" min="-2" pref="220" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="Correction3_txt" min="-2" pref="46" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="NO_lbl" alignment="0" min="-2" pref="514" max="-2" attributes="0"/>
+                              <Component id="Hypochlorite_lbl" alignment="0" min="-2" pref="339" max="-2" attributes="0"/>
+                              <Component id="MagnesiumPhosphate_lbl" alignment="0" min="-2" pref="514" max="-2" attributes="0"/>
+                              <Component id="lbl_CH3COOH" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="CH3COOH_txt" min="-2" pref="221" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="Correction1_txt" min="-2" pref="43" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="NO_txt" min="-2" pref="224" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="Correction4_txt" min="-2" pref="46" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="Correct_lbl" min="-2" max="-2" attributes="0"/>
+                                      <Component id="MagnesiumPhosphate_txt" min="-2" pref="223" max="-2" attributes="0"/>
+                                      <Component id="Incorrect_lbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Percentage_lbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="Correction5_txt" min="-2" pref="50" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Percarbonate_lbl" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="PerbromicAcid_txt" min="-2" pref="219" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="Correction9_txt" min="-2" pref="45" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="MnS2_lbl" min="-2" pref="267" max="-2" attributes="0"/>
+                                              <Component id="Li3PO4_lbl" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="MnS2_txt" min="-2" pref="210" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="Correction6_txt" min="-2" pref="39" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="PerbromicAcid_lbl" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="Li3PO4_txt" min="-2" pref="212" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="Correction7_txt" min="-2" pref="42" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="Percarbonate_txt" min="-2" pref="221" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="Correction8_txt" min="-2" pref="43" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="SodiumSulfate_lbl" pref="369" max="32767" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Component id="SodiumSulfate_txt" min="-2" pref="227" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                          <Component id="Correction10_txt" min="-2" pref="45" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="304" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="Correct_txt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Incorrect_txt" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="Percentage_txt" alignment="0" min="-2" pref="88" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="322" max="-2" attributes="0"/>
+                                  <Component id="lblTitle" min="-2" pref="270" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Component id="lblTitle" min="-2" pref="59" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lbl_CH3COOH" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="MnS2_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="CH3COOH_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="MnS2_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correction1_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correction6_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="NiI3_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                      <Component id="Li3PO4_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="NiI3_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correction2_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Li3PO4_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correction7_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="271" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MagnesiumPhosphate_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="SodiumSulfate_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Hypochlorite_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="Percarbonate_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Hypochlorite_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Correction3_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Percarbonate_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Correction8_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NO_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                              <Component id="PerbromicAcid_lbl" alignment="3" min="-2" pref="50" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="NO_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Correction4_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="PerbromicAcid_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Correction9_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="MagnesiumPhosphate_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correction5_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="SodiumSulfate_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correction10_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="SubmitButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Correct_lbl" min="-2" max="-2" attributes="0"/>
+                      <Component id="Correct_txt" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Incorrect_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Incorrect_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Percentage_lbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Percentage_txt" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="lblTitle">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Verdana" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Nomenclature Quiz"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="MnS2_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the chemical name of MnS2?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="CH3COOH_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CH3COOH_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="lbl_CH3COOH">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the chemical name of CH3COOH?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="MagnesiumPhosphate_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the chemical formula for magnesium phosphate heptahydrate?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SodiumSulfate_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the chemical name for Na2SO4 &#x2022; 10H20?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Li3PO4_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the formula for lithium phosphate?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Hypochlorite_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the chemical formula of hypochlorite? "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="PerbromicAcid_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the formula for perbromic acid?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Percarbonate_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the chemical formula of percarbonate?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="NO_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What are the characteristics of the bond between nitrogen and oxygen?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="NiI3_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="What is the formula for nickel(III) iodide?"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="NiI3_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NiI3_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Hypochlorite_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Hypochlorite_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="NO_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="NO_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MagnesiumPhosphate_txt">
+          <Events>
+            <EventHandler event="ancestorRemoved" listener="javax.swing.event.AncestorListener" parameters="javax.swing.event.AncestorEvent" handler="MagnesiumPhosphate_txtAncestorRemoved"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MagnesiumPhosphate_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="MnS2_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="MnS2_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Li3PO4_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Li3PO4_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Percarbonate_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Percarbonate_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="PerbromicAcid_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PerbromicAcid_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="SodiumSulfate_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SodiumSulfate_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="SubmitButton">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Submit"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SubmitButtonActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction1_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Correction1_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction2_txt">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Correction2_txtActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction3_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction4_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction5_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction6_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction7_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction8_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction10_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correction9_txt">
+        </Component>
+        <Component class="javax.swing.JLabel" name="Correct_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total Correct:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Percentage_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Percentage:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Incorrect_lbl">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total Incorrect:"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Incorrect_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Correct_txt">
+        </Component>
+        <Component class="javax.swing.JTextField" name="Percentage_txt">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
