@@ -8,7 +8,9 @@
  * @author arkir7294
  */
 public class MultipleChoiceQuestion extends javax.swing.JFrame {
-     int incorrect = 0;
+    
+//Variable Declaration Area 
+    int incorrect = 0;
      int correct = 0;
      double percentage = 10;
      double totalpercentage;
@@ -403,215 +405,213 @@ public class MultipleChoiceQuestion extends javax.swing.JFrame {
 
     private void SubmitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SubmitButtonActionPerformed
         
-        //Variable Declaration Zone
-        
-         //Correction Marks
-        String checkmark = "✓";
-        String incorrectmark = "X";
+        //Correction Marks
+        String CHECKMARK = "✓";
+        String INCORRECTMARK = "X";
         
         //Acetic Acid Questionx`
-        final String question1;
-        final String answer1 = "Acetic Acid";
-        final String answer2 = "acetic acid";
-        final String answer3 = "Aqueous Hydrogen Acetate";
-        final String answer4 = "aqueous hydrogen acetate";
+        final String QUESTION1;
+        final String ANSWER1 = "Acetic Acid";
+        final String ANSWER2 = "acetic acid";
+        final String ANSWER3 = "Aqueous Hydrogen Acetate";
+        final String ANSWER4 = "aqueous hydrogen acetate";
         String answer5 = "Aqueous hydrogen acetate";
         
          //Acetic Acid
-        question1 = CH3COOH_txt.getText();
+        QUESTION1 = CH3COOH_txt.getText();
         
-          if (question1.equals(answer1)){
-            Correction1_txt.setText(checkmark);
+          if (QUESTION1.equals(ANSWER1)){
+            Correction1_txt.setText(CHECKMARK);
             correct = correct + 1;
-          }else if(question1.equals(answer2)){
-            Correction1_txt.setText(checkmark);
+          }else if(QUESTION1.equals(ANSWER2)){
+            Correction1_txt.setText(CHECKMARK);
             correct = correct + 1;
-          }else if(question1.equals(answer3)){
-            Correction1_txt.setText(checkmark);
+          }else if(QUESTION1.equals(ANSWER3)){
+            Correction1_txt.setText(CHECKMARK);
             correct = correct + 1;
-          }else if(question1.equals(answer4)){
-            Correction1_txt.setText(checkmark);
+          }else if(QUESTION1.equals(ANSWER4)){
+            Correction1_txt.setText(CHECKMARK);
             correct = correct + 1;
-          }else if(question1.equals(answer5)){
-            Correction1_txt.setText(checkmark);
+          }else if(QUESTION1.equals(answer5)){
+            Correction1_txt.setText(CHECKMARK);
             correct = correct + 1;
           } else {
-            Correction1_txt.setText(incorrectmark);
+            Correction1_txt.setText(INCORRECTMARK);
             incorrect = incorrect + 1;
           }
        
         //Nickle (III) Iodide Question
-        final String question2;
-        final String answer6 = "NiI3";
+        final String QUESTION2;
+        final String ANSWER6 = "NiI3";
        
           //Nickel (III) Iodide
-          question2 = NiI3_txt.getText();
+          QUESTION2 = NiI3_txt.getText();
         
-          if (question2.equals(answer6)){
-            Correction2_txt.setText(checkmark);
+          if (QUESTION2.equals(ANSWER6)){
+            Correction2_txt.setText(CHECKMARK);
             correct = correct + 1;
           }else{
-            Correction2_txt.setText(incorrectmark);
+            Correction2_txt.setText(INCORRECTMARK);
             incorrect = incorrect + 1;
           }
         
         //Hypochlorite Question
-        String question3;
-        String answer7 = "ClO";        
+        String QUESTION3;
+        String ANSWER7 = "ClO";        
         
           //Hypochlorite
-          question3 = Hypochlorite_txt.getText();
+         QUESTION3 = Hypochlorite_txt.getText();
         
-          if (question3.equals (answer7)){
-            Correction3_txt.setText(checkmark);
+          if (QUESTION3.equals (ANSWER7)){
+            Correction3_txt.setText(CHECKMARK);
             correct = correct + 1;
           }else{
-            Correction3_txt.setText(incorrectmark);
+            Correction3_txt.setText(INCORRECTMARK);
             incorrect = incorrect + 1;
           } 
         
         //Nitrogen Oxide Question
-        final String question4;
-        final String answer8 = "Polar Covalent";
-        final String answer9 = "polar covalent";
-        String answer10 = "Polar covalent";
+        final String QUESTION4;
+        final String ANSWER8 = "Polar Covalent";
+        final String ANSWER9 = "polar covalent";
+        String ANSWER10 = "Polar covalent";
         
           //Nitrogen Oxide
-          question4 = NO_txt.getText();
+          QUESTION4 = NO_txt.getText();
         
-          if (question4.equals (answer8)){
-           Correction4_txt.setText(checkmark);
+          if (QUESTION4.equals (ANSWER8)){
+           Correction4_txt.setText(CHECKMARK);
            correct = correct + 1;
-          }else if(question4.equals (answer9)){
-           Correction4_txt.setText(checkmark);
+          }else if(QUESTION4.equals (ANSWER9)){
+           Correction4_txt.setText(CHECKMARK);
            correct = correct + 1;
-          }else if (question4.equals (answer10)){
-           Correction4_txt.setText(checkmark);
+          }else if (QUESTION4.equals (ANSWER10)){
+           Correction4_txt.setText(CHECKMARK);
            correct = correct + 1;
           }else{
-           Correction4_txt.setText(incorrectmark);
+           Correction4_txt.setText(INCORRECTMARK);
            incorrect = incorrect + 1;
           }
        
         //Magnesium Phosphate Heptahydrate Question 
-        final String question5; 
-        final String answer11 = "Mg3(PO4)2 • 7H2O";
-        final String answer12 = "Mg3(PO4)2•7H2O";
-        String answer13 = "Mg3 (PO4)2 •7H2O";
+        final String QUESTION5; 
+        final String ANSWER11 = "Mg3(PO4)2 • 7H2O";
+        final String ANSWER12 = "Mg3(PO4)2•7H2O";
+        String ANSWER13 = "Mg3 (PO4)2 •7H2O";
                                 
           //Magnesium Phosphate Heptahydrate
-          question5 = MagnesiumPhosphate_txt.getText();
+          QUESTION5 = MagnesiumPhosphate_txt.getText();
         
-          if (question5.equals (answer11)){
-              Correction5_txt.setText(checkmark);
+          if (QUESTION5.equals (ANSWER11)){
+              Correction5_txt.setText(CHECKMARK);
               correct = correct + 1;
-          }else if(question5.equals (answer12)){
-              Correction5_txt.setText(checkmark);
+          }else if(QUESTION5.equals (ANSWER12)){
+              Correction5_txt.setText(CHECKMARK);
               correct = correct + 1;
-          }else if (question5.equals (answer13)){
-              Correction5_txt.setText(checkmark);
+          }else if (QUESTION5.equals (ANSWER13)){
+              Correction5_txt.setText(CHECKMARK);
               correct = correct + 1;
           }else{
-              Correction5_txt.setText(incorrectmark);
+              Correction5_txt.setText(INCORRECTMARK);
               incorrect = incorrect + 1;
           }
           
         //MnS2 Question
-        final String question6;
-        final String answer14 = "Manganese (IV) Sulfide";
-        final String answer15 = "manganese (IV) sulfide";
-        final String answer16 = "manganese(IV) sulfide";
-        final String answer17 = "Manganese(IV) sulfide";
-        String answer18 = "Manganese(IV) Sulfide";
+        final String QUESTION6;
+        final String ANSWER14 = "Manganese (IV) Sulfide";
+        final String ANSWER15 = "manganese (IV) sulfide";
+        final String ANSWER16 = "manganese(IV) sulfide";
+        final String ANSWER17 = "Manganese(IV) sulfide";
+        String ANSWER18 = "Manganese(IV) Sulfide";
         
           //MnS2
-          question6 = MnS2_txt.getText();
+          QUESTION6 = MnS2_txt.getText();
          
-          if (question6.equals (answer14)){
-             Correction6_txt.setText(checkmark);
+          if (QUESTION6.equals (ANSWER14)){
+             Correction6_txt.setText(CHECKMARK);
              correct = correct + 1;
-          }else if(question6.equals (answer15)){
-             Correction6_txt.setText(checkmark);
+          }else if(QUESTION6.equals (ANSWER15)){
+             Correction6_txt.setText(CHECKMARK);
              correct = correct + 1;
-          }else if(question6.equals (answer16)){
-             Correction6_txt.setText(checkmark);
+          }else if(QUESTION6.equals (ANSWER16)){
+             Correction6_txt.setText(CHECKMARK);
              correct = correct + 1;
-          }else if(question6.equals (answer17)){
-             Correction6_txt.setText(checkmark);
+          }else if(QUESTION6.equals (ANSWER17)){
+             Correction6_txt.setText(CHECKMARK);
              correct = correct + 1;
-          }else if(question6.equals (answer18)){
-             Correction6_txt.setText(checkmark);
+          }else if(QUESTION6.equals (ANSWER18)){
+             Correction6_txt.setText(CHECKMARK);
              correct = correct + 1;
           }else{
-             Correction6_txt.setText(incorrectmark);
+             Correction6_txt.setText(INCORRECTMARK);
              incorrect = incorrect + 1;
           }
         
         //Lithium Phosphate Question
-        String question7;
-        String answer19 = "Li3PO4";
+        String QUESTION7;
+        String ANSWER19 = "Li3PO4";
          
           //Lithium Phosphate
-          question7 = Li3PO4_txt.getText();
+          QUESTION7 = Li3PO4_txt.getText();
         
-          if (question7.equals (answer19)){
-             Correction7_txt.setText(checkmark);
+          if (QUESTION7.equals (ANSWER19)){
+             Correction7_txt.setText(CHECKMARK);
              correct = correct + 1;
           }else{
-             Correction7_txt.setText(incorrectmark);
+             Correction7_txt.setText(INCORRECTMARK);
              incorrect = incorrect + 1;
           }
          
         //Percarbonate Question 
-        final String question8;
-        final String answer20 = "CO4";
+        final String QUESTION8;
+        final String ANSWER20 = "CO4";
          
           //Percarbonate 
-          question8 = Percarbonate_txt.getText();
+          QUESTION8 = Percarbonate_txt.getText();
          
-          if (question8.equals (answer20)){
-             Correction8_txt.setText(checkmark);
+          if (QUESTION8.equals (ANSWER20)){
+             Correction8_txt.setText(CHECKMARK);
              correct = correct + 1;
           }else{
-             Correction8_txt.setText(incorrectmark);
+             Correction8_txt.setText(INCORRECTMARK);
              incorrect = incorrect + 1;
           }
          
         //Perbromic Acid Question
-        String question9;
-        String answer21 = "HBrO4";
+        String QUESTION9;
+        String ANSWER21 = "HBrO4";
          
           //Perbromic Acid
-          question9 = PerbromicAcid_txt.getText();
+          QUESTION9 = PerbromicAcid_txt.getText();
          
-          if (question9.equals (answer21)){
-             Correction9_txt.setText(checkmark);
+          if (QUESTION9.equals (ANSWER21)){
+             Correction9_txt.setText(CHECKMARK);
              correct = correct + 1;
           }else{
-             Correction9_txt.setText(incorrectmark);
+             Correction9_txt.setText(INCORRECTMARK);
              incorrect = incorrect + 1;
           }
           
         //Sodium Sulfate Decahydrate Question
-        String question10;
-        final String answer22 = "Sodium Sulfate Decahydrate";
-        final String answer23 = "Sodium sulfate decahydrate";
-        String answer24 = "sodium sulfate decahydrate";
+        String QUESTION10;
+        final String ANSWER22 = "Sodium Sulfate Decahydrate";
+        final String ANSWER23 = "Sodium sulfate decahydrate";
+        String ANSWER24 = "sodium sulfate decahydrate";
         
           //Sodium Sulfate Decahydrate
-          question10 = MagnesiumPhosphate_txt.getText();
+          QUESTION10 = MagnesiumPhosphate_txt.getText();
         
-          if (question10.equals (answer22)){
-            Correction10_txt.setText(checkmark);
+          if (QUESTION10.equals (ANSWER22)){
+            Correction10_txt.setText(CHECKMARK);
             correct = correct + 1;
-          }else if(question10.equals (answer23)){
-            Correction10_txt.setText(checkmark);
+          }else if(QUESTION10.equals (ANSWER23)){
+            Correction10_txt.setText(CHECKMARK);
             correct = correct + 1;
-          }else if(question10.equals (answer24)){
-            Correction10_txt.setText(checkmark);
+          }else if(QUESTION10.equals (ANSWER24)){
+            Correction10_txt.setText(CHECKMARK);
             correct = correct + 1;
           }else{
-            Correction10_txt.setText(incorrectmark);
+            Correction10_txt.setText(INCORRECTMARK);
             incorrect = incorrect + 1;
           } 
         
