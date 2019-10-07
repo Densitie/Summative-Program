@@ -1,6 +1,7 @@
 /*
  * Arun K
  *Septembre 28 2019
+ * This program is a nomenclature multiple choice quiz made in java
  */
 
 /**
